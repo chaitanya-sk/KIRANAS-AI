@@ -1,14 +1,21 @@
 import axios from "axios";
 
-// Base API URL from environment variable or dynamic local/production fallback
-const defaultApiUrl =
-  typeof window !== "undefined" &&
-  window.location.hostname !== "localhost" &&
-  window.location.hostname !== "127.0.0.1"
-    ? "/api"
-    : "http://localhost:5000/api";
+// Base API URL from environment variable or dynamic unified single-origin fallback
+const getBaseUrl = () => {
+  if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
+  if (typeof window !== "undefined") {
+    // If running on unified server (port 5000) or public production domain, use relative /api
+    if (
+      window.location.port === "5000" ||
+      (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1")
+    ) {
+      return "/api";
+    }
+  }
+  return "http://localhost:5000/api";
+};
 
-const API_URL = import.meta.env.VITE_API_URL || defaultApiUrl;
+const API_URL = getBaseUrl();
 
 const api = axios.create({
   baseURL: API_URL,
