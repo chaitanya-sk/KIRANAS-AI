@@ -1,0 +1,56 @@
+[
+  {
+    "eventId": "event_diwali",
+    "name": "Diwali (Festival of Lights)",
+    "period": "October - November",
+    "demandImpact": "High demand for Ghee, Sugar, Maida, Cooking Oil, Dry Fruits, and Biscuits",
+    "peakCategories": [
+      "Cooking Oil & Ghee",
+      "Staples & Grains",
+      "Biscuits & Snacks"
+    ]
+  },
+  {
+    "eventId": "event_sankranti_pongal",
+    "name": "Makar Sankranti / Pongal Harvest",
+    "period": "January 13 - 17",
+    "demandImpact": "High demand for Jaggery, Rice, Ghee, Spices, and Edible Salt",
+    "peakCategories": [
+      "Staples & Grains",
+      "Cooking Oil & Ghee",
+      "Spices & Condiments"
+    ]
+  },
+  {
+    "eventId": "event_ugadi",
+    "name": "Ugadi (Deccan New Year)",
+    "period": "March - April",
+    "demandImpact": "Surge in Jaggery, Tamarind, Neem flowers, Bath Soaps, and Detergents",
+    "peakCategories": [
+      "Staples & Grains",
+      "Personal Care",
+      "Detergents & Cleaning"
+    ]
+  },
+  {
+    "eventId": "event_monsoon",
+    "name": "Monsoon Sowing Season",
+    "period": "June - August",
+    "demandImpact": "High daily demand for Hot Tea, Biscuits, Maggi noodles, and Antiseptics",
+    "peakCategories": [
+      "Beverages & Tea",
+      "Instant Food",
+      "Personal Care"
+    ]
+  },
+  {
+    "eventId": "event_independence_day",
+    "name": "Independence Day / National Holidays",
+    "period": "August 15",
+    "demandImpact": "Community school sweet distributions, Parle-G, and packaged drinking water",
+    "peakCategories": [
+      "Biscuits & Snacks",
+      "Beverages & Tea"
+    ]
+  }
+]

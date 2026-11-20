@@ -1,0 +1,313 @@
+[
+  {
+    "supplierId": "sup_parle",
+    "name": "Shree Ram Parle Agency",
+    "contactPerson": "R. K. Agarwal",
+    "phone": "+91 98200 11001",
+    "email": "orders@shreeramparle.in",
+    "address": "Mandi Gate No. 4, APMC Hub",
+    "district": "Dharwad",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Parle"
+    ],
+    "suppliedCategories": [
+      "Biscuits & Snacks"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 2000,
+    "rating": 4.8,
+    "status": "Preferred"
+  },
+  {
+    "supplierId": "sup_britannia",
+    "name": "Metro Britannia Logistics",
+    "contactPerson": "K. Suresh",
+    "phone": "+91 98451 22002",
+    "email": "distribution@metrobritannia.in",
+    "address": "Plot 12, Industrial Area",
+    "district": "Mandya",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Britannia"
+    ],
+    "suppliedCategories": [
+      "Biscuits & Snacks"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 2500,
+    "rating": 4.7,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_nestle",
+    "name": "Balaji Food Traders (Nestle)",
+    "contactPerson": "G. Venkatesh",
+    "phone": "+91 98480 33003",
+    "email": "sales@balajinestle.in",
+    "address": "Godown Road, Market Yard",
+    "district": "Chittoor",
+    "state": "Andhra Pradesh",
+    "suppliedBrands": [
+      "Nestle"
+    ],
+    "suppliedCategories": [
+      "Instant Food",
+      "Beverages & Tea"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 3000,
+    "rating": 4.9,
+    "status": "Preferred"
+  },
+  {
+    "supplierId": "sup_amul",
+    "name": "Deccan Dairy Hub (Amul)",
+    "contactPerson": "P. R. Shinde",
+    "phone": "+91 98221 44004",
+    "email": "amuldealer@deccandairy.in",
+    "address": "Cold Storage Complex",
+    "district": "Kolhapur",
+    "state": "Maharashtra",
+    "suppliedBrands": [
+      "Amul"
+    ],
+    "suppliedCategories": [
+      "Cooking Oil & Ghee",
+      "Staples & Grains"
+    ],
+    "avgDeliveryTime": 1,
+    "minOrderValue": 1500,
+    "rating": 4.9,
+    "status": "Preferred"
+  },
+  {
+    "supplierId": "sup_hul",
+    "name": "Hindustan Consumer Supply",
+    "contactPerson": "Anand Verma",
+    "phone": "+91 98111 55005",
+    "email": "orders@hcsfmcg.in",
+    "address": "Sector 5, Transport Nagar",
+    "district": "Belagavi",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Hindustan Unilever"
+    ],
+    "suppliedCategories": [
+      "Personal Care",
+      "Detergents & Cleaning"
+    ],
+    "avgDeliveryTime": 3,
+    "minOrderValue": 4000,
+    "rating": 4.6,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_itc",
+    "name": "Sri Krishna ITC Depot",
+    "contactPerson": "M. Natesan",
+    "phone": "+91 94432 66006",
+    "email": "itc@srikrishnadepot.in",
+    "address": "Near Old Bus Stand",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "suppliedBrands": [
+      "ITC"
+    ],
+    "suppliedCategories": [
+      "Staples & Grains",
+      "Biscuits & Snacks"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 3500,
+    "rating": 4.8,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_tata",
+    "name": "Tata Consumer Direct Mandi",
+    "contactPerson": "P. K. Nair",
+    "phone": "+91 98490 77007",
+    "email": "mandi@tataconsumer.in",
+    "address": "Wholesale Grain Market",
+    "district": "Kurnool",
+    "state": "Andhra Pradesh",
+    "suppliedBrands": [
+      "Tata Consumer"
+    ],
+    "suppliedCategories": [
+      "Staples & Grains",
+      "Beverages & Tea"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 2500,
+    "rating": 4.9,
+    "status": "Preferred"
+  },
+  {
+    "supplierId": "sup_adani",
+    "name": "Adani Wilmar Fortune Depot",
+    "contactPerson": "Harish Jain",
+    "phone": "+91 98980 88008",
+    "email": "fortune@adaniwilmar.in",
+    "address": "Ring Road Godowns",
+    "district": "Dharwad",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Fortune"
+    ],
+    "suppliedCategories": [
+      "Cooking Oil & Ghee"
+    ],
+    "avgDeliveryTime": 3,
+    "minOrderValue": 5000,
+    "rating": 4.5,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_colgate",
+    "name": "South Oral Care Wholesale",
+    "contactPerson": "G. Murthy",
+    "phone": "+91 94440 99009",
+    "email": "colgate@southoralcare.in",
+    "address": "Main Road",
+    "district": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "suppliedBrands": [
+      "Colgate-Palmolive"
+    ],
+    "suppliedCategories": [
+      "Personal Care"
+    ],
+    "avgDeliveryTime": 3,
+    "minOrderValue": 2000,
+    "rating": 4.7,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_marico",
+    "name": "Marico Rural Distribution",
+    "contactPerson": "K. R. Pillai",
+    "phone": "+91 98330 10101",
+    "email": "rural@marico.in",
+    "address": "Highway Bypass",
+    "district": "Medak",
+    "state": "Telangana",
+    "suppliedBrands": [
+      "Marico"
+    ],
+    "suppliedCategories": [
+      "Personal Care",
+      "Cooking Oil & Ghee"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 2500,
+    "rating": 4.6,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_reckitt",
+    "name": "Reckitt Benckiser Rural Hub",
+    "contactPerson": "Sunil Joshi",
+    "phone": "+91 98230 20202",
+    "email": "dettol@rbhub.in",
+    "address": "APMC Sub-Yard",
+    "district": "Kolhapur",
+    "state": "Maharashtra",
+    "suppliedBrands": [
+      "Reckitt Benckiser"
+    ],
+    "suppliedCategories": [
+      "Personal Care",
+      "Detergents & Cleaning"
+    ],
+    "avgDeliveryTime": 3,
+    "minOrderValue": 3000,
+    "rating": 4.7,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_dabur",
+    "name": "Dabur Ayurveda & FMCG",
+    "contactPerson": "R. S. Tiwari",
+    "phone": "+91 98180 30303",
+    "email": "dabur@ayurwholesale.in",
+    "address": "Station Road",
+    "district": "Ramanagara",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Dabur"
+    ],
+    "suppliedCategories": [
+      "Personal Care",
+      "Beverages & Tea"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 2000,
+    "rating": 4.5,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_everest",
+    "name": "Everest & MDH Spices Agency",
+    "contactPerson": "Pravin Shah",
+    "phone": "+91 98201 40404",
+    "email": "spices@everestagency.in",
+    "address": "Grain Merchant Street",
+    "district": "Belagavi",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Everest",
+      "MDH"
+    ],
+    "suppliedCategories": [
+      "Spices & Condiments"
+    ],
+    "avgDeliveryTime": 2,
+    "minOrderValue": 1500,
+    "rating": 4.8,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_bisleri",
+    "name": "Bisleri & Beverages Depot",
+    "contactPerson": "N. Mohan",
+    "phone": "+91 98452 50505",
+    "email": "beverages@bisleridepot.in",
+    "address": "Mandi Cross",
+    "district": "Mandya",
+    "state": "Karnataka",
+    "suppliedBrands": [
+      "Bisleri"
+    ],
+    "suppliedCategories": [
+      "Beverages & Tea"
+    ],
+    "avgDeliveryTime": 1,
+    "minOrderValue": 1000,
+    "rating": 4.6,
+    "status": "Active"
+  },
+  {
+    "supplierId": "sup_local_mandi",
+    "name": "Kisan Wholesale Mandi Consortium",
+    "contactPerson": "V. Shankar",
+    "phone": "+91 98481 60606",
+    "email": "orders@kisanmandi.in",
+    "address": "Central APMC Yard",
+    "district": "Chittoor",
+    "state": "Andhra Pradesh",
+    "suppliedBrands": [
+      "Local FMCG",
+      "Kisan Brand"
+    ],
+    "suppliedCategories": [
+      "Staples & Grains",
+      "Spices & Condiments"
+    ],
+    "avgDeliveryTime": 1,
+    "minOrderValue": 1000,
+    "rating": 4.4,
+    "status": "Active"
+  }
+]

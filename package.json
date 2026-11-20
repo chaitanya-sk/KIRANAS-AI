@@ -1,0 +1,16 @@
+{
+  "name": "kiranas-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KIRANAS - Smart Inventory. Smarter Kiranas. Rural FMCG Demand Forecasting Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix backend",
+    "start": "npm start --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "validate-data": "npm run validate-data --prefix backend",
+    "clear-data": "npm run clear-data --prefix backend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "totalProducts": 50,
+  "totalStores": 10,
+  "totalSalesRecords": 5578,
+  "totalRevenue": 1127833,
+  "totalProfit": 147888,
+  "totalInventoryValue": 653950,
+  "lowStockProducts": 72,
+  "overstockProducts": 34,
+  "deadStockValue": 89705,
+  "nearExpiryProducts": 4,
+  "pendingPurchaseOrders": 11,
+  "avgDailySalesRevenue": 37594,
+  "predictedNext7DaysDemandUnits": 9216,
+  "generatedAt": "2026-11-19T15:12:41.342Z"
+}

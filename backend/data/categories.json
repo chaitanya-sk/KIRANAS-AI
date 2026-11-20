@@ -1,0 +1,104 @@
+[
+  {
+    "categoryId": "cat_biscuits",
+    "name": "Biscuits & Snacks",
+    "code": "BISCUITS",
+    "description": "High-frequency daily snacks, biscuits, and rusks",
+    "icon": "Cookie",
+    "subcategories": [
+      "Glucose Biscuits",
+      "Cream Biscuits",
+      "Marie & Health",
+      "Namkeen & Chips"
+    ]
+  },
+  {
+    "categoryId": "cat_instant_food",
+    "name": "Instant Food",
+    "code": "INSTANT_FOOD",
+    "description": "Quick meals, noodles, pasta and packaged soup",
+    "icon": "Utensils",
+    "subcategories": [
+      "Noodles",
+      "Vermicelli",
+      "Ready Mixes"
+    ]
+  },
+  {
+    "categoryId": "cat_staples",
+    "name": "Staples & Grains",
+    "code": "STAPLES",
+    "description": "Atta, rice, dal, salt, sugar and basic grains",
+    "icon": "Wheat",
+    "subcategories": [
+      "Atta & Flour",
+      "Edible Salt",
+      "Sugar & Jaggery",
+      "Pulses & Dal"
+    ]
+  },
+  {
+    "categoryId": "cat_oil_ghee",
+    "name": "Cooking Oil & Ghee",
+    "code": "OIL_GHEE",
+    "description": "Vegetable oil, mustard oil, sunflower oil, and pure desi ghee",
+    "icon": "Droplet",
+    "subcategories": [
+      "Sunflower Oil",
+      "Mustard Oil",
+      "Desi Ghee",
+      "Palm Oil"
+    ]
+  },
+  {
+    "categoryId": "cat_personal_care",
+    "name": "Personal Care",
+    "code": "PERSONAL_CARE",
+    "description": "Soaps, shampoo sachets, toothpaste, and hair oil",
+    "icon": "Smile",
+    "subcategories": [
+      "Bath Soaps",
+      "Shampoo Sachets",
+      "Dental Care",
+      "Hair Care"
+    ]
+  },
+  {
+    "categoryId": "cat_detergents",
+    "name": "Detergents & Cleaning",
+    "code": "DETERGENTS",
+    "description": "Washing powders, detergent bars, dishwash, and disinfectants",
+    "icon": "Sparkles",
+    "subcategories": [
+      "Washing Powders",
+      "Detergent Cakes",
+      "Dishwash Bars",
+      "Antiseptics"
+    ]
+  },
+  {
+    "categoryId": "cat_beverages",
+    "name": "Beverages & Tea",
+    "code": "BEVERAGES",
+    "description": "Tea leaves, instant coffee, glucose drinks, and bottled water",
+    "icon": "Coffee",
+    "subcategories": [
+      "Packaged Tea",
+      "Coffee",
+      "Energy Drinks",
+      "Packaged Water"
+    ]
+  },
+  {
+    "categoryId": "cat_spices",
+    "name": "Spices & Condiments",
+    "code": "SPICES",
+    "description": "Turmeric, chilli powder, mixed masala, and pickles",
+    "icon": "Flame",
+    "subcategories": [
+      "Powdered Spices",
+      "Whole Spices",
+      "Pickles & Sauces"
+    ]
+  }
+]

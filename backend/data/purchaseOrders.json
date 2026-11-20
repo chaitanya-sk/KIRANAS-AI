@@ -1,0 +1,1546 @@
+[
+  {
+    "orderId": "po_001",
+    "poNumber": "PO-KIR-2026-0001",
+    "storeId": "store_ka_02",
+    "supplierId": "sup_britannia",
+    "supplierName": "Metro Britannia Logistics",
+    "items": [
+      {
+        "productId": "prod_04",
+        "sku": "GOODDAY-BUTTER-75G",
+        "productName": "Britannia Good Day Butter 75g",
+        "quantity": 43,
+        "unitPrice": 12.8,
+        "total": 550
+      },
+      {
+        "productId": "prod_05",
+        "sku": "MARIEGOLD-120G",
+        "productName": "Britannia Marie Gold Tea Biscuits 120g",
+        "quantity": 22,
+        "unitPrice": 17,
+        "total": 374
+      },
+      {
+        "productId": "prod_06",
+        "sku": "TIGER-GLUCOSE-50G",
+        "productName": "Britannia Tiger Glucose 50g",
+        "quantity": 51,
+        "unitPrice": 4.2,
+        "total": 214
+      },
+      {
+        "productId": "prod_07",
+        "sku": "BRITANNIA-BREAD-400G",
+        "productName": "Britannia Daily Fresh White Bread 400g",
+        "quantity": 40,
+        "unitPrice": 29.5,
+        "total": 1180
+      }
+    ],
+    "totalOrderValue": 2318,
+    "orderDate": "2026-10-28",
+    "expectedDeliveryDate": "2026-10-30",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_002",
+    "poNumber": "PO-KIR-2026-0002",
+    "storeId": "store_ka_03",
+    "supplierId": "sup_nestle",
+    "supplierName": "Balaji Food Traders (Nestle)",
+    "items": [
+      {
+        "productId": "prod_08",
+        "sku": "MAGGI-2MIN-70G",
+        "productName": "Nestle Maggi 2-Minute Masala Noodles 70g",
+        "quantity": 50,
+        "unitPrice": 11.8,
+        "total": 590
+      },
+      {
+        "productId": "prod_09",
+        "sku": "NESCAFE-CLASSIC-25G",
+        "productName": "Nescafe Classic Coffee Jar 25g",
+        "quantity": 45,
+        "unitPrice": 82,
+        "total": 3690
+      },
+      {
+        "productId": "prod_10",
+        "sku": "MILKMAID-400G",
+        "productName": "Nestle Milkmaid Sweetened Condensed Milk 400g",
+        "quantity": 52,
+        "unitPrice": 125,
+        "total": 6500
+      }
+    ],
+    "totalOrderValue": 10780,
+    "orderDate": "2026-10-26",
+    "expectedDeliveryDate": "2026-10-28",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_003",
+    "poNumber": "PO-KIR-2026-0003",
+    "storeId": "store_ka_04",
+    "supplierId": "sup_amul",
+    "supplierName": "Deccan Dairy Hub (Amul)",
+    "items": [
+      {
+        "productId": "prod_11",
+        "sku": "AMUL-TAAZA-500ML",
+        "productName": "Amul Taaza Toned Milk Pouch 500ml",
+        "quantity": 35,
+        "unitPrice": 25.2,
+        "total": 882
+      },
+      {
+        "productId": "prod_12",
+        "sku": "AMUL-BUTTER-100G",
+        "productName": "Amul Pasteurised Butter 100g",
+        "quantity": 24,
+        "unitPrice": 51.5,
+        "total": 1236
+      },
+      {
+        "productId": "prod_13",
+        "sku": "AMUL-MASTI-DAHI-400G",
+        "productName": "Amul Masti Dahi Curd Tub 400g",
+        "quantity": 41,
+        "unitPrice": 30.8,
+        "total": 1263
+      },
+      {
+        "productId": "prod_14",
+        "sku": "AMUL-GHEE-500ML",
+        "productName": "Amul Pure Cow Desi Ghee 500ml Tin",
+        "quantity": 25,
+        "unitPrice": 285,
+        "total": 7125
+      }
+    ],
+    "totalOrderValue": 10506,
+    "orderDate": "2026-11-13",
+    "expectedDeliveryDate": "2026-11-14",
+    "actualDeliveryDate": "2026-11-14",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_004",
+    "poNumber": "PO-KIR-2026-0004",
+    "storeId": "store_tn_01",
+    "supplierId": "sup_hul",
+    "supplierName": "Hindustan Consumer Supply",
+    "items": [
+      {
+        "productId": "prod_15",
+        "sku": "SURF-EXCEL-500G",
+        "productName": "Surf Excel Easy Wash Detergent 500g",
+        "quantity": 26,
+        "unitPrice": 64,
+        "total": 1664
+      },
+      {
+        "productId": "prod_16",
+        "sku": "RIN-BAR-250G",
+        "productName": "Rin Detergent Washing Cake Bar 250g",
+        "quantity": 33,
+        "unitPrice": 17.1,
+        "total": 564
+      },
+      {
+        "productId": "prod_17",
+        "sku": "LUX-SOAP-100G",
+        "productName": "Lux Rose Glowing Soap Bar 100g",
+        "quantity": 43,
+        "unitPrice": 32.5,
+        "total": 1398
+      },
+      {
+        "productId": "prod_18",
+        "sku": "LIFEBUOY-TOTAL-125G",
+        "productName": "Lifebuoy Total Germ Protection Soap 125g",
+        "quantity": 41,
+        "unitPrice": 29.8,
+        "total": 1222
+      },
+      {
+        "productId": "prod_19",
+        "sku": "DOVE-SHAMPOO-180ML",
+        "productName": "Dove Daily Shine Shampoo 180ml Bottle",
+        "quantity": 36,
+        "unitPrice": 158,
+        "total": 5688
+      },
+      {
+        "productId": "prod_31",
+        "sku": "CLINIC-PLUS-SACHET-6ML",
+        "productName": "Clinic Plus Strong & Long Shampoo Sachet 6ml (Pack of 16)",
+        "quantity": 44,
+        "unitPrice": 13.6,
+        "total": 598
+      },
+      {
+        "productId": "prod_44",
+        "sku": "RED-LABEL-TEA-100G",
+        "productName": "Brooke Bond Red Label Tea Leaf 100g",
+        "quantity": 21,
+        "unitPrice": 47,
+        "total": 987
+      },
+      {
+        "productId": "prod_45",
+        "sku": "WHEEL-ACTIVE-2IN1-1KG",
+        "productName": "Wheel 2in1 Detergent Washing Powder 1kg",
+        "quantity": 49,
+        "unitPrice": 55,
+        "total": 2695
+      },
+      {
+        "productId": "prod_46",
+        "sku": "VIM-DISHWASH-BAR-155G",
+        "productName": "Vim Lemon Dishwash Bar 155g",
+        "quantity": 49,
+        "unitPrice": 8.5,
+        "total": 417
+      }
+    ],
+    "totalOrderValue": 15233,
+    "orderDate": "2026-11-13",
+    "expectedDeliveryDate": "2026-11-16",
+    "actualDeliveryDate": "2026-11-16",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_005",
+    "poNumber": "PO-KIR-2026-0005",
+    "storeId": "store_tn_02",
+    "supplierId": "sup_itc",
+    "supplierName": "Sri Krishna ITC Depot",
+    "items": [
+      {
+        "productId": "prod_20",
+        "sku": "AASHIRVAAD-ATTA-5KG",
+        "productName": "Aashirvaad Superior MP Whole Wheat Atta 5kg",
+        "quantity": 50,
+        "unitPrice": 232,
+        "total": 11600
+      },
+      {
+        "productId": "prod_21",
+        "sku": "SUNFEAST-MOM-MAGIC-100G",
+        "productName": "Sunfeast Mom's Magic Cashew & Almond 100g",
+        "quantity": 33,
+        "unitPrice": 16.9,
+        "total": 558
+      },
+      {
+        "productId": "prod_22",
+        "sku": "BINGO-MAD-ANGLES-66G",
+        "productName": "Bingo Mad Angles Achaari Masti 66g",
+        "quantity": 23,
+        "unitPrice": 8.5,
+        "total": 196
+      }
+    ],
+    "totalOrderValue": 12354,
+    "orderDate": "2026-11-17",
+    "expectedDeliveryDate": "2026-11-19",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_006",
+    "poNumber": "PO-KIR-2026-0006",
+    "storeId": "store_ap_01",
+    "supplierId": "sup_tata",
+    "supplierName": "Tata Consumer Direct Mandi",
+    "items": [
+      {
+        "productId": "prod_23",
+        "sku": "TATA-SALT-1KG",
+        "productName": "Tata Salt Vacuum Evaporated Iodized 1kg",
+        "quantity": 54,
+        "unitPrice": 24.5,
+        "total": 1323
+      },
+      {
+        "productId": "prod_24",
+        "sku": "TATA-TEA-PREMIUM-250G",
+        "productName": "Tata Tea Premium Desh Ki Chai 250g",
+        "quantity": 39,
+        "unitPrice": 121,
+        "total": 4719
+      },
+      {
+        "productId": "prod_25",
+        "sku": "TATA-SAMPANN-TOOR-1KG",
+        "productName": "Tata Sampann Unpolished Toor Dal 1kg",
+        "quantity": 42,
+        "unitPrice": 162,
+        "total": 6804
+      }
+    ],
+    "totalOrderValue": 12846,
+    "orderDate": "2026-10-27",
+    "expectedDeliveryDate": "2026-10-29",
+    "actualDeliveryDate": "",
+    "orderStatus": "Pending",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_007",
+    "poNumber": "PO-KIR-2026-0007",
+    "storeId": "store_ap_02",
+    "supplierId": "sup_adani",
+    "supplierName": "Adani Wilmar Fortune Depot",
+    "items": [
+      {
+        "productId": "prod_26",
+        "sku": "FORTUNE-SUNFLOWER-1L",
+        "productName": "Fortune Sunlite Refined Sunflower Oil 1L Pouch",
+        "quantity": 47,
+        "unitPrice": 121.5,
+        "total": 5711
+      },
+      {
+        "productId": "prod_27",
+        "sku": "FORTUNE-MUSTARD-1L",
+        "productName": "Fortune Kachi Ghani Pure Mustard Oil 1L",
+        "quantity": 26,
+        "unitPrice": 133,
+        "total": 3458
+      },
+      {
+        "productId": "prod_28",
+        "sku": "FORTUNE-SOYA-1L",
+        "productName": "Fortune Soya Health Refined Soyabean Oil 1L",
+        "quantity": 33,
+        "unitPrice": 108,
+        "total": 3564
+      }
+    ],
+    "totalOrderValue": 12733,
+    "orderDate": "2026-10-31",
+    "expectedDeliveryDate": "2026-11-03",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_008",
+    "poNumber": "PO-KIR-2026-0008",
+    "storeId": "store_ts_01",
+    "supplierId": "sup_colgate",
+    "supplierName": "South Oral Care Wholesale",
+    "items": [
+      {
+        "productId": "prod_29",
+        "sku": "COLGATE-MAXFRESH-50G",
+        "productName": "Colgate MaxFresh Spicy Fresh Gel 50g",
+        "quantity": 25,
+        "unitPrice": 38.5,
+        "total": 963
+      },
+      {
+        "productId": "prod_30",
+        "sku": "COLGATE-STRONG-100G",
+        "productName": "Colgate Strong Teeth Dental Paste 100g",
+        "quantity": 23,
+        "unitPrice": 55,
+        "total": 1265
+      }
+    ],
+    "totalOrderValue": 2228,
+    "orderDate": "2026-11-15",
+    "expectedDeliveryDate": "2026-11-18",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Unpaid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_009",
+    "poNumber": "PO-KIR-2026-0009",
+    "storeId": "store_mh_01",
+    "supplierId": "sup_marico",
+    "supplierName": "Marico Rural Distribution",
+    "items": [
+      {
+        "productId": "prod_32",
+        "sku": "PARACHUTE-COCONUT-100ML",
+        "productName": "Parachute 100% Pure Coconut Hair Oil 100ml",
+        "quantity": 54,
+        "unitPrice": 41,
+        "total": 2214
+      }
+    ],
+    "totalOrderValue": 2214,
+    "orderDate": "2026-11-14",
+    "expectedDeliveryDate": "2026-11-16",
+    "actualDeliveryDate": "2026-11-16",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_010",
+    "poNumber": "PO-KIR-2026-0010",
+    "storeId": "store_ka_01",
+    "supplierId": "sup_reckitt",
+    "supplierName": "Reckitt Benckiser Rural Hub",
+    "items": [
+      {
+        "productId": "prod_33",
+        "sku": "DETTOL-ORIGINAL-SOAP-75G",
+        "productName": "Dettol Original Germ Protection Soap 75g",
+        "quantity": 32,
+        "unitPrice": 34,
+        "total": 1088
+      },
+      {
+        "productId": "prod_34",
+        "sku": "DETTOL-LIQUID-60ML",
+        "productName": "Dettol Antiseptic Disinfectant Liquid 60ml",
+        "quantity": 51,
+        "unitPrice": 32.5,
+        "total": 1658
+      },
+      {
+        "productId": "prod_35",
+        "sku": "HARPIC-POWER-PLUS-200ML",
+        "productName": "Harpic Power Plus Toilet Cleaner 200ml",
+        "quantity": 51,
+        "unitPrice": 39.5,
+        "total": 2015
+      }
+    ],
+    "totalOrderValue": 4761,
+    "orderDate": "2026-11-07",
+    "expectedDeliveryDate": "2026-11-10",
+    "actualDeliveryDate": "2026-11-11",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_011",
+    "poNumber": "PO-KIR-2026-0011",
+    "storeId": "store_ka_02",
+    "supplierId": "sup_dabur",
+    "supplierName": "Dabur Ayurveda & FMCG",
+    "items": [
+      {
+        "productId": "prod_36",
+        "sku": "DABUR-RED-PASTE-100G",
+        "productName": "Dabur Red Ayurvedic Toothpaste 100g",
+        "quantity": 33,
+        "unitPrice": 51,
+        "total": 1683
+      },
+      {
+        "productId": "prod_37",
+        "sku": "DABUR-HONEY-100G",
+        "productName": "Dabur 100% Pure Squeezy Honey 100g",
+        "quantity": 41,
+        "unitPrice": 64,
+        "total": 2624
+      }
+    ],
+    "totalOrderValue": 4307,
+    "orderDate": "2026-10-27",
+    "expectedDeliveryDate": "2026-10-29",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_012",
+    "poNumber": "PO-KIR-2026-0012",
+    "storeId": "store_ka_03",
+    "supplierId": "sup_everest",
+    "supplierName": "Everest & MDH Spices Agency",
+    "items": [
+      {
+        "productId": "prod_38",
+        "sku": "EVEREST-TURMERIC-100G",
+        "productName": "Everest Pure Turmeric Haldi Powder 100g",
+        "quantity": 56,
+        "unitPrice": 29.8,
+        "total": 1669
+      },
+      {
+        "productId": "prod_39",
+        "sku": "EVEREST-CHILLI-100G",
+        "productName": "Everest Tikhalal Hot Chilli Powder 100g",
+        "quantity": 25,
+        "unitPrice": 41.2,
+        "total": 1030
+      },
+      {
+        "productId": "prod_40",
+        "sku": "EVEREST-GARAM-MASALA-50G",
+        "productName": "Everest Super Garam Masala 50g",
+        "quantity": 25,
+        "unitPrice": 38.5,
+        "total": 963
+      },
+      {
+        "productId": "prod_41",
+        "sku": "MDH-SAMBHAR-MASALA-100G",
+        "productName": "MDH South Indian Sambhar Masala 100g",
+        "quantity": 56,
+        "unitPrice": 70,
+        "total": 3920
+      }
+    ],
+    "totalOrderValue": 7582,
+    "orderDate": "2026-11-09",
+    "expectedDeliveryDate": "2026-11-11",
+    "actualDeliveryDate": "",
+    "orderStatus": "Pending",
+    "paymentStatus": "Unpaid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_013",
+    "poNumber": "PO-KIR-2026-0013",
+    "storeId": "store_ka_04",
+    "supplierId": "sup_bisleri",
+    "supplierName": "Bisleri & Beverages Depot",
+    "items": [
+      {
+        "productId": "prod_42",
+        "sku": "BISLERI-WATER-1L",
+        "productName": "Bisleri Mineral Drinking Water 1L Bottle",
+        "quantity": 45,
+        "unitPrice": 15,
+        "total": 675
+      },
+      {
+        "productId": "prod_43",
+        "sku": "GLUCON-D-ORANGE-200G",
+        "productName": "Glucon-D Instant Energy Orange Refill 200g",
+        "quantity": 50,
+        "unitPrice": 61.5,
+        "total": 3075
+      }
+    ],
+    "totalOrderValue": 3750,
+    "orderDate": "2026-10-25",
+    "expectedDeliveryDate": "2026-10-26",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_014",
+    "poNumber": "PO-KIR-2026-0014",
+    "storeId": "store_tn_01",
+    "supplierId": "sup_local_mandi",
+    "supplierName": "Kisan Wholesale Mandi Consortium",
+    "items": [
+      {
+        "productId": "prod_47",
+        "sku": "EXO-DISHWASH-ROUND-250G",
+        "productName": "Exo Anti-Bacterial Dishwash Round Tub 250g",
+        "quantity": 30,
+        "unitPrice": 29.5,
+        "total": 885
+      },
+      {
+        "productId": "prod_48",
+        "sku": "LOCAL-KABULI-CHANA-500G",
+        "productName": "Desi White Kabuli Chana Chickpeas 500g",
+        "quantity": 56,
+        "unitPrice": 73,
+        "total": 4088
+      },
+      {
+        "productId": "prod_49",
+        "sku": "LOCAL-JAGGERY-CUBE-1KG",
+        "productName": "Organic Kolhapur Gur Jaggery Cubes 1kg",
+        "quantity": 22,
+        "unitPrice": 59,
+        "total": 1298
+      },
+      {
+        "productId": "prod_50",
+        "sku": "LOCAL-MASALA-MURMURA-200G",
+        "productName": "Karnataka Spicy Masala Puffed Murmura 200g",
+        "quantity": 38,
+        "unitPrice": 20,
+        "total": 760
+      }
+    ],
+    "totalOrderValue": 7031,
+    "orderDate": "2026-11-06",
+    "expectedDeliveryDate": "2026-11-07",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_015",
+    "poNumber": "PO-KIR-2026-0015",
+    "storeId": "store_tn_02",
+    "supplierId": "sup_parle",
+    "supplierName": "Shree Ram Parle Agency",
+    "items": [
+      {
+        "productId": "prod_01",
+        "sku": "PARLE-G-100G",
+        "productName": "Parle-G Gold Biscuits 100g",
+        "quantity": 26,
+        "unitPrice": 8.5,
+        "total": 221
+      },
+      {
+        "productId": "prod_02",
+        "sku": "MONACO-75G",
+        "productName": "Parle Monaco Salted Crackers 75g",
+        "quantity": 44,
+        "unitPrice": 8.6,
+        "total": 378
+      },
+      {
+        "productId": "prod_03",
+        "sku": "KRACKJACK-60G",
+        "productName": "Parle KrackJack Sweet & Salty 60g",
+        "quantity": 47,
+        "unitPrice": 8.5,
+        "total": 400
+      }
+    ],
+    "totalOrderValue": 999,
+    "orderDate": "2026-10-31",
+    "expectedDeliveryDate": "2026-11-02",
+    "actualDeliveryDate": "2026-11-03",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_016",
+    "poNumber": "PO-KIR-2026-0016",
+    "storeId": "store_ap_01",
+    "supplierId": "sup_britannia",
+    "supplierName": "Metro Britannia Logistics",
+    "items": [
+      {
+        "productId": "prod_04",
+        "sku": "GOODDAY-BUTTER-75G",
+        "productName": "Britannia Good Day Butter 75g",
+        "quantity": 26,
+        "unitPrice": 12.8,
+        "total": 333
+      },
+      {
+        "productId": "prod_05",
+        "sku": "MARIEGOLD-120G",
+        "productName": "Britannia Marie Gold Tea Biscuits 120g",
+        "quantity": 26,
+        "unitPrice": 17,
+        "total": 442
+      },
+      {
+        "productId": "prod_06",
+        "sku": "TIGER-GLUCOSE-50G",
+        "productName": "Britannia Tiger Glucose 50g",
+        "quantity": 39,
+        "unitPrice": 4.2,
+        "total": 164
+      },
+      {
+        "productId": "prod_07",
+        "sku": "BRITANNIA-BREAD-400G",
+        "productName": "Britannia Daily Fresh White Bread 400g",
+        "quantity": 39,
+        "unitPrice": 29.5,
+        "total": 1151
+      }
+    ],
+    "totalOrderValue": 2090,
+    "orderDate": "2026-11-15",
+    "expectedDeliveryDate": "2026-11-17",
+    "actualDeliveryDate": "2026-11-17",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_017",
+    "poNumber": "PO-KIR-2026-0017",
+    "storeId": "store_ap_02",
+    "supplierId": "sup_nestle",
+    "supplierName": "Balaji Food Traders (Nestle)",
+    "items": [
+      {
+        "productId": "prod_08",
+        "sku": "MAGGI-2MIN-70G",
+        "productName": "Nestle Maggi 2-Minute Masala Noodles 70g",
+        "quantity": 42,
+        "unitPrice": 11.8,
+        "total": 496
+      },
+      {
+        "productId": "prod_09",
+        "sku": "NESCAFE-CLASSIC-25G",
+        "productName": "Nescafe Classic Coffee Jar 25g",
+        "quantity": 22,
+        "unitPrice": 82,
+        "total": 1804
+      },
+      {
+        "productId": "prod_10",
+        "sku": "MILKMAID-400G",
+        "productName": "Nestle Milkmaid Sweetened Condensed Milk 400g",
+        "quantity": 33,
+        "unitPrice": 125,
+        "total": 4125
+      }
+    ],
+    "totalOrderValue": 6425,
+    "orderDate": "2026-11-04",
+    "expectedDeliveryDate": "2026-11-06",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_018",
+    "poNumber": "PO-KIR-2026-0018",
+    "storeId": "store_ts_01",
+    "supplierId": "sup_amul",
+    "supplierName": "Deccan Dairy Hub (Amul)",
+    "items": [
+      {
+        "productId": "prod_11",
+        "sku": "AMUL-TAAZA-500ML",
+        "productName": "Amul Taaza Toned Milk Pouch 500ml",
+        "quantity": 30,
+        "unitPrice": 25.2,
+        "total": 756
+      },
+      {
+        "productId": "prod_12",
+        "sku": "AMUL-BUTTER-100G",
+        "productName": "Amul Pasteurised Butter 100g",
+        "quantity": 55,
+        "unitPrice": 51.5,
+        "total": 2833
+      },
+      {
+        "productId": "prod_13",
+        "sku": "AMUL-MASTI-DAHI-400G",
+        "productName": "Amul Masti Dahi Curd Tub 400g",
+        "quantity": 44,
+        "unitPrice": 30.8,
+        "total": 1355
+      },
+      {
+        "productId": "prod_14",
+        "sku": "AMUL-GHEE-500ML",
+        "productName": "Amul Pure Cow Desi Ghee 500ml Tin",
+        "quantity": 40,
+        "unitPrice": 285,
+        "total": 11400
+      }
+    ],
+    "totalOrderValue": 16344,
+    "orderDate": "2026-10-30",
+    "expectedDeliveryDate": "2026-10-31",
+    "actualDeliveryDate": "",
+    "orderStatus": "Pending",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_019",
+    "poNumber": "PO-KIR-2026-0019",
+    "storeId": "store_mh_01",
+    "supplierId": "sup_hul",
+    "supplierName": "Hindustan Consumer Supply",
+    "items": [
+      {
+        "productId": "prod_15",
+        "sku": "SURF-EXCEL-500G",
+        "productName": "Surf Excel Easy Wash Detergent 500g",
+        "quantity": 37,
+        "unitPrice": 64,
+        "total": 2368
+      },
+      {
+        "productId": "prod_16",
+        "sku": "RIN-BAR-250G",
+        "productName": "Rin Detergent Washing Cake Bar 250g",
+        "quantity": 29,
+        "unitPrice": 17.1,
+        "total": 496
+      },
+      {
+        "productId": "prod_17",
+        "sku": "LUX-SOAP-100G",
+        "productName": "Lux Rose Glowing Soap Bar 100g",
+        "quantity": 58,
+        "unitPrice": 32.5,
+        "total": 1885
+      },
+      {
+        "productId": "prod_18",
+        "sku": "LIFEBUOY-TOTAL-125G",
+        "productName": "Lifebuoy Total Germ Protection Soap 125g",
+        "quantity": 46,
+        "unitPrice": 29.8,
+        "total": 1371
+      },
+      {
+        "productId": "prod_19",
+        "sku": "DOVE-SHAMPOO-180ML",
+        "productName": "Dove Daily Shine Shampoo 180ml Bottle",
+        "quantity": 54,
+        "unitPrice": 158,
+        "total": 8532
+      },
+      {
+        "productId": "prod_31",
+        "sku": "CLINIC-PLUS-SACHET-6ML",
+        "productName": "Clinic Plus Strong & Long Shampoo Sachet 6ml (Pack of 16)",
+        "quantity": 33,
+        "unitPrice": 13.6,
+        "total": 449
+      },
+      {
+        "productId": "prod_44",
+        "sku": "RED-LABEL-TEA-100G",
+        "productName": "Brooke Bond Red Label Tea Leaf 100g",
+        "quantity": 49,
+        "unitPrice": 47,
+        "total": 2303
+      },
+      {
+        "productId": "prod_45",
+        "sku": "WHEEL-ACTIVE-2IN1-1KG",
+        "productName": "Wheel 2in1 Detergent Washing Powder 1kg",
+        "quantity": 50,
+        "unitPrice": 55,
+        "total": 2750
+      },
+      {
+        "productId": "prod_46",
+        "sku": "VIM-DISHWASH-BAR-155G",
+        "productName": "Vim Lemon Dishwash Bar 155g",
+        "quantity": 25,
+        "unitPrice": 8.5,
+        "total": 213
+      }
+    ],
+    "totalOrderValue": 20367,
+    "orderDate": "2026-11-03",
+    "expectedDeliveryDate": "2026-11-06",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_020",
+    "poNumber": "PO-KIR-2026-0020",
+    "storeId": "store_ka_01",
+    "supplierId": "sup_itc",
+    "supplierName": "Sri Krishna ITC Depot",
+    "items": [
+      {
+        "productId": "prod_20",
+        "sku": "AASHIRVAAD-ATTA-5KG",
+        "productName": "Aashirvaad Superior MP Whole Wheat Atta 5kg",
+        "quantity": 36,
+        "unitPrice": 232,
+        "total": 8352
+      },
+      {
+        "productId": "prod_21",
+        "sku": "SUNFEAST-MOM-MAGIC-100G",
+        "productName": "Sunfeast Mom's Magic Cashew & Almond 100g",
+        "quantity": 52,
+        "unitPrice": 16.9,
+        "total": 879
+      },
+      {
+        "productId": "prod_22",
+        "sku": "BINGO-MAD-ANGLES-66G",
+        "productName": "Bingo Mad Angles Achaari Masti 66g",
+        "quantity": 20,
+        "unitPrice": 8.5,
+        "total": 170
+      }
+    ],
+    "totalOrderValue": 9401,
+    "orderDate": "2026-11-18",
+    "expectedDeliveryDate": "2026-11-20",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Unpaid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_021",
+    "poNumber": "PO-KIR-2026-0021",
+    "storeId": "store_ka_02",
+    "supplierId": "sup_tata",
+    "supplierName": "Tata Consumer Direct Mandi",
+    "items": [
+      {
+        "productId": "prod_23",
+        "sku": "TATA-SALT-1KG",
+        "productName": "Tata Salt Vacuum Evaporated Iodized 1kg",
+        "quantity": 50,
+        "unitPrice": 24.5,
+        "total": 1225
+      },
+      {
+        "productId": "prod_24",
+        "sku": "TATA-TEA-PREMIUM-250G",
+        "productName": "Tata Tea Premium Desh Ki Chai 250g",
+        "quantity": 22,
+        "unitPrice": 121,
+        "total": 2662
+      },
+      {
+        "productId": "prod_25",
+        "sku": "TATA-SAMPANN-TOOR-1KG",
+        "productName": "Tata Sampann Unpolished Toor Dal 1kg",
+        "quantity": 39,
+        "unitPrice": 162,
+        "total": 6318
+      }
+    ],
+    "totalOrderValue": 10205,
+    "orderDate": "2026-11-14",
+    "expectedDeliveryDate": "2026-11-16",
+    "actualDeliveryDate": "2026-11-16",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_022",
+    "poNumber": "PO-KIR-2026-0022",
+    "storeId": "store_ka_03",
+    "supplierId": "sup_adani",
+    "supplierName": "Adani Wilmar Fortune Depot",
+    "items": [
+      {
+        "productId": "prod_26",
+        "sku": "FORTUNE-SUNFLOWER-1L",
+        "productName": "Fortune Sunlite Refined Sunflower Oil 1L Pouch",
+        "quantity": 44,
+        "unitPrice": 121.5,
+        "total": 5346
+      },
+      {
+        "productId": "prod_27",
+        "sku": "FORTUNE-MUSTARD-1L",
+        "productName": "Fortune Kachi Ghani Pure Mustard Oil 1L",
+        "quantity": 51,
+        "unitPrice": 133,
+        "total": 6783
+      },
+      {
+        "productId": "prod_28",
+        "sku": "FORTUNE-SOYA-1L",
+        "productName": "Fortune Soya Health Refined Soyabean Oil 1L",
+        "quantity": 25,
+        "unitPrice": 108,
+        "total": 2700
+      }
+    ],
+    "totalOrderValue": 14829,
+    "orderDate": "2026-11-09",
+    "expectedDeliveryDate": "2026-11-12",
+    "actualDeliveryDate": "2026-11-12",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_023",
+    "poNumber": "PO-KIR-2026-0023",
+    "storeId": "store_ka_04",
+    "supplierId": "sup_colgate",
+    "supplierName": "South Oral Care Wholesale",
+    "items": [
+      {
+        "productId": "prod_29",
+        "sku": "COLGATE-MAXFRESH-50G",
+        "productName": "Colgate MaxFresh Spicy Fresh Gel 50g",
+        "quantity": 39,
+        "unitPrice": 38.5,
+        "total": 1502
+      },
+      {
+        "productId": "prod_30",
+        "sku": "COLGATE-STRONG-100G",
+        "productName": "Colgate Strong Teeth Dental Paste 100g",
+        "quantity": 36,
+        "unitPrice": 55,
+        "total": 1980
+      }
+    ],
+    "totalOrderValue": 3482,
+    "orderDate": "2026-11-16",
+    "expectedDeliveryDate": "2026-11-19",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_024",
+    "poNumber": "PO-KIR-2026-0024",
+    "storeId": "store_tn_01",
+    "supplierId": "sup_marico",
+    "supplierName": "Marico Rural Distribution",
+    "items": [
+      {
+        "productId": "prod_32",
+        "sku": "PARACHUTE-COCONUT-100ML",
+        "productName": "Parachute 100% Pure Coconut Hair Oil 100ml",
+        "quantity": 58,
+        "unitPrice": 41,
+        "total": 2378
+      }
+    ],
+    "totalOrderValue": 2378,
+    "orderDate": "2026-10-27",
+    "expectedDeliveryDate": "2026-10-29",
+    "actualDeliveryDate": "",
+    "orderStatus": "Pending",
+    "paymentStatus": "Unpaid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_025",
+    "poNumber": "PO-KIR-2026-0025",
+    "storeId": "store_tn_02",
+    "supplierId": "sup_reckitt",
+    "supplierName": "Reckitt Benckiser Rural Hub",
+    "items": [
+      {
+        "productId": "prod_33",
+        "sku": "DETTOL-ORIGINAL-SOAP-75G",
+        "productName": "Dettol Original Germ Protection Soap 75g",
+        "quantity": 37,
+        "unitPrice": 34,
+        "total": 1258
+      },
+      {
+        "productId": "prod_34",
+        "sku": "DETTOL-LIQUID-60ML",
+        "productName": "Dettol Antiseptic Disinfectant Liquid 60ml",
+        "quantity": 46,
+        "unitPrice": 32.5,
+        "total": 1495
+      },
+      {
+        "productId": "prod_35",
+        "sku": "HARPIC-POWER-PLUS-200ML",
+        "productName": "Harpic Power Plus Toilet Cleaner 200ml",
+        "quantity": 28,
+        "unitPrice": 39.5,
+        "total": 1106
+      }
+    ],
+    "totalOrderValue": 3859,
+    "orderDate": "2026-11-03",
+    "expectedDeliveryDate": "2026-11-06",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_026",
+    "poNumber": "PO-KIR-2026-0026",
+    "storeId": "store_ap_01",
+    "supplierId": "sup_dabur",
+    "supplierName": "Dabur Ayurveda & FMCG",
+    "items": [
+      {
+        "productId": "prod_36",
+        "sku": "DABUR-RED-PASTE-100G",
+        "productName": "Dabur Red Ayurvedic Toothpaste 100g",
+        "quantity": 20,
+        "unitPrice": 51,
+        "total": 1020
+      },
+      {
+        "productId": "prod_37",
+        "sku": "DABUR-HONEY-100G",
+        "productName": "Dabur 100% Pure Squeezy Honey 100g",
+        "quantity": 42,
+        "unitPrice": 64,
+        "total": 2688
+      }
+    ],
+    "totalOrderValue": 3708,
+    "orderDate": "2026-11-15",
+    "expectedDeliveryDate": "2026-11-17",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_027",
+    "poNumber": "PO-KIR-2026-0027",
+    "storeId": "store_ap_02",
+    "supplierId": "sup_everest",
+    "supplierName": "Everest & MDH Spices Agency",
+    "items": [
+      {
+        "productId": "prod_38",
+        "sku": "EVEREST-TURMERIC-100G",
+        "productName": "Everest Pure Turmeric Haldi Powder 100g",
+        "quantity": 35,
+        "unitPrice": 29.8,
+        "total": 1043
+      },
+      {
+        "productId": "prod_39",
+        "sku": "EVEREST-CHILLI-100G",
+        "productName": "Everest Tikhalal Hot Chilli Powder 100g",
+        "quantity": 23,
+        "unitPrice": 41.2,
+        "total": 948
+      },
+      {
+        "productId": "prod_40",
+        "sku": "EVEREST-GARAM-MASALA-50G",
+        "productName": "Everest Super Garam Masala 50g",
+        "quantity": 49,
+        "unitPrice": 38.5,
+        "total": 1887
+      },
+      {
+        "productId": "prod_41",
+        "sku": "MDH-SAMBHAR-MASALA-100G",
+        "productName": "MDH South Indian Sambhar Masala 100g",
+        "quantity": 30,
+        "unitPrice": 70,
+        "total": 2100
+      }
+    ],
+    "totalOrderValue": 5978,
+    "orderDate": "2026-11-07",
+    "expectedDeliveryDate": "2026-11-09",
+    "actualDeliveryDate": "2026-11-09",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_028",
+    "poNumber": "PO-KIR-2026-0028",
+    "storeId": "store_ts_01",
+    "supplierId": "sup_bisleri",
+    "supplierName": "Bisleri & Beverages Depot",
+    "items": [
+      {
+        "productId": "prod_42",
+        "sku": "BISLERI-WATER-1L",
+        "productName": "Bisleri Mineral Drinking Water 1L Bottle",
+        "quantity": 37,
+        "unitPrice": 15,
+        "total": 555
+      },
+      {
+        "productId": "prod_43",
+        "sku": "GLUCON-D-ORANGE-200G",
+        "productName": "Glucon-D Instant Energy Orange Refill 200g",
+        "quantity": 20,
+        "unitPrice": 61.5,
+        "total": 1230
+      }
+    ],
+    "totalOrderValue": 1785,
+    "orderDate": "2026-11-12",
+    "expectedDeliveryDate": "2026-11-13",
+    "actualDeliveryDate": "2026-11-13",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_029",
+    "poNumber": "PO-KIR-2026-0029",
+    "storeId": "store_mh_01",
+    "supplierId": "sup_local_mandi",
+    "supplierName": "Kisan Wholesale Mandi Consortium",
+    "items": [
+      {
+        "productId": "prod_47",
+        "sku": "EXO-DISHWASH-ROUND-250G",
+        "productName": "Exo Anti-Bacterial Dishwash Round Tub 250g",
+        "quantity": 59,
+        "unitPrice": 29.5,
+        "total": 1741
+      },
+      {
+        "productId": "prod_48",
+        "sku": "LOCAL-KABULI-CHANA-500G",
+        "productName": "Desi White Kabuli Chana Chickpeas 500g",
+        "quantity": 22,
+        "unitPrice": 73,
+        "total": 1606
+      },
+      {
+        "productId": "prod_49",
+        "sku": "LOCAL-JAGGERY-CUBE-1KG",
+        "productName": "Organic Kolhapur Gur Jaggery Cubes 1kg",
+        "quantity": 21,
+        "unitPrice": 59,
+        "total": 1239
+      },
+      {
+        "productId": "prod_50",
+        "sku": "LOCAL-MASALA-MURMURA-200G",
+        "productName": "Karnataka Spicy Masala Puffed Murmura 200g",
+        "quantity": 50,
+        "unitPrice": 20,
+        "total": 1000
+      }
+    ],
+    "totalOrderValue": 5586,
+    "orderDate": "2026-11-08",
+    "expectedDeliveryDate": "2026-11-09",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_030",
+    "poNumber": "PO-KIR-2026-0030",
+    "storeId": "store_ka_01",
+    "supplierId": "sup_parle",
+    "supplierName": "Shree Ram Parle Agency",
+    "items": [
+      {
+        "productId": "prod_01",
+        "sku": "PARLE-G-100G",
+        "productName": "Parle-G Gold Biscuits 100g",
+        "quantity": 40,
+        "unitPrice": 8.5,
+        "total": 340
+      },
+      {
+        "productId": "prod_02",
+        "sku": "MONACO-75G",
+        "productName": "Parle Monaco Salted Crackers 75g",
+        "quantity": 28,
+        "unitPrice": 8.6,
+        "total": 241
+      },
+      {
+        "productId": "prod_03",
+        "sku": "KRACKJACK-60G",
+        "productName": "Parle KrackJack Sweet & Salty 60g",
+        "quantity": 50,
+        "unitPrice": 8.5,
+        "total": 425
+      }
+    ],
+    "totalOrderValue": 1006,
+    "orderDate": "2026-10-28",
+    "expectedDeliveryDate": "2026-10-30",
+    "actualDeliveryDate": "",
+    "orderStatus": "Pending",
+    "paymentStatus": "Partially Paid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_031",
+    "poNumber": "PO-KIR-2026-0031",
+    "storeId": "store_ka_02",
+    "supplierId": "sup_britannia",
+    "supplierName": "Metro Britannia Logistics",
+    "items": [
+      {
+        "productId": "prod_04",
+        "sku": "GOODDAY-BUTTER-75G",
+        "productName": "Britannia Good Day Butter 75g",
+        "quantity": 49,
+        "unitPrice": 12.8,
+        "total": 627
+      },
+      {
+        "productId": "prod_05",
+        "sku": "MARIEGOLD-120G",
+        "productName": "Britannia Marie Gold Tea Biscuits 120g",
+        "quantity": 28,
+        "unitPrice": 17,
+        "total": 476
+      },
+      {
+        "productId": "prod_06",
+        "sku": "TIGER-GLUCOSE-50G",
+        "productName": "Britannia Tiger Glucose 50g",
+        "quantity": 48,
+        "unitPrice": 4.2,
+        "total": 202
+      },
+      {
+        "productId": "prod_07",
+        "sku": "BRITANNIA-BREAD-400G",
+        "productName": "Britannia Daily Fresh White Bread 400g",
+        "quantity": 50,
+        "unitPrice": 29.5,
+        "total": 1475
+      }
+    ],
+    "totalOrderValue": 2780,
+    "orderDate": "2026-11-12",
+    "expectedDeliveryDate": "2026-11-14",
+    "actualDeliveryDate": "",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_032",
+    "poNumber": "PO-KIR-2026-0032",
+    "storeId": "store_ka_03",
+    "supplierId": "sup_nestle",
+    "supplierName": "Balaji Food Traders (Nestle)",
+    "items": [
+      {
+        "productId": "prod_08",
+        "sku": "MAGGI-2MIN-70G",
+        "productName": "Nestle Maggi 2-Minute Masala Noodles 70g",
+        "quantity": 30,
+        "unitPrice": 11.8,
+        "total": 354
+      },
+      {
+        "productId": "prod_09",
+        "sku": "NESCAFE-CLASSIC-25G",
+        "productName": "Nescafe Classic Coffee Jar 25g",
+        "quantity": 48,
+        "unitPrice": 82,
+        "total": 3936
+      },
+      {
+        "productId": "prod_10",
+        "sku": "MILKMAID-400G",
+        "productName": "Nestle Milkmaid Sweetened Condensed Milk 400g",
+        "quantity": 38,
+        "unitPrice": 125,
+        "total": 4750
+      }
+    ],
+    "totalOrderValue": 9040,
+    "orderDate": "2026-11-02",
+    "expectedDeliveryDate": "2026-11-04",
+    "actualDeliveryDate": "",
+    "orderStatus": "In Transit",
+    "paymentStatus": "Unpaid",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  },
+  {
+    "orderId": "po_033",
+    "poNumber": "PO-KIR-2026-0033",
+    "storeId": "store_ka_04",
+    "supplierId": "sup_amul",
+    "supplierName": "Deccan Dairy Hub (Amul)",
+    "items": [
+      {
+        "productId": "prod_11",
+        "sku": "AMUL-TAAZA-500ML",
+        "productName": "Amul Taaza Toned Milk Pouch 500ml",
+        "quantity": 59,
+        "unitPrice": 25.2,
+        "total": 1487
+      },
+      {
+        "productId": "prod_12",
+        "sku": "AMUL-BUTTER-100G",
+        "productName": "Amul Pasteurised Butter 100g",
+        "quantity": 23,
+        "unitPrice": 51.5,
+        "total": 1185
+      },
+      {
+        "productId": "prod_13",
+        "sku": "AMUL-MASTI-DAHI-400G",
+        "productName": "Amul Masti Dahi Curd Tub 400g",
+        "quantity": 34,
+        "unitPrice": 30.8,
+        "total": 1047
+      },
+      {
+        "productId": "prod_14",
+        "sku": "AMUL-GHEE-500ML",
+        "productName": "Amul Pure Cow Desi Ghee 500ml Tin",
+        "quantity": 59,
+        "unitPrice": 285,
+        "total": 16815
+      }
+    ],
+    "totalOrderValue": 20534,
+    "orderDate": "2026-11-10",
+    "expectedDeliveryDate": "2026-11-11",
+    "actualDeliveryDate": "2026-11-11",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_034",
+    "poNumber": "PO-KIR-2026-0034",
+    "storeId": "store_tn_01",
+    "supplierId": "sup_hul",
+    "supplierName": "Hindustan Consumer Supply",
+    "items": [
+      {
+        "productId": "prod_15",
+        "sku": "SURF-EXCEL-500G",
+        "productName": "Surf Excel Easy Wash Detergent 500g",
+        "quantity": 49,
+        "unitPrice": 64,
+        "total": 3136
+      },
+      {
+        "productId": "prod_16",
+        "sku": "RIN-BAR-250G",
+        "productName": "Rin Detergent Washing Cake Bar 250g",
+        "quantity": 27,
+        "unitPrice": 17.1,
+        "total": 462
+      },
+      {
+        "productId": "prod_17",
+        "sku": "LUX-SOAP-100G",
+        "productName": "Lux Rose Glowing Soap Bar 100g",
+        "quantity": 36,
+        "unitPrice": 32.5,
+        "total": 1170
+      },
+      {
+        "productId": "prod_18",
+        "sku": "LIFEBUOY-TOTAL-125G",
+        "productName": "Lifebuoy Total Germ Protection Soap 125g",
+        "quantity": 55,
+        "unitPrice": 29.8,
+        "total": 1639
+      },
+      {
+        "productId": "prod_19",
+        "sku": "DOVE-SHAMPOO-180ML",
+        "productName": "Dove Daily Shine Shampoo 180ml Bottle",
+        "quantity": 57,
+        "unitPrice": 158,
+        "total": 9006
+      },
+      {
+        "productId": "prod_31",
+        "sku": "CLINIC-PLUS-SACHET-6ML",
+        "productName": "Clinic Plus Strong & Long Shampoo Sachet 6ml (Pack of 16)",
+        "quantity": 57,
+        "unitPrice": 13.6,
+        "total": 775
+      },
+      {
+        "productId": "prod_44",
+        "sku": "RED-LABEL-TEA-100G",
+        "productName": "Brooke Bond Red Label Tea Leaf 100g",
+        "quantity": 29,
+        "unitPrice": 47,
+        "total": 1363
+      },
+      {
+        "productId": "prod_45",
+        "sku": "WHEEL-ACTIVE-2IN1-1KG",
+        "productName": "Wheel 2in1 Detergent Washing Powder 1kg",
+        "quantity": 48,
+        "unitPrice": 55,
+        "total": 2640
+      },
+      {
+        "productId": "prod_46",
+        "sku": "VIM-DISHWASH-BAR-155G",
+        "productName": "Vim Lemon Dishwash Bar 155g",
+        "quantity": 57,
+        "unitPrice": 8.5,
+        "total": 485
+      }
+    ],
+    "totalOrderValue": 20676,
+    "orderDate": "2026-10-26",
+    "expectedDeliveryDate": "2026-10-29",
+    "actualDeliveryDate": "2026-10-29",
+    "orderStatus": "Delivered",
+    "paymentStatus": "Paid",
+    "notes": "Restocked on shelves successfully"
+  },
+  {
+    "orderId": "po_035",
+    "poNumber": "PO-KIR-2026-0035",
+    "storeId": "store_tn_02",
+    "supplierId": "sup_itc",
+    "supplierName": "Sri Krishna ITC Depot",
+    "items": [
+      {
+        "productId": "prod_20",
+        "sku": "AASHIRVAAD-ATTA-5KG",
+        "productName": "Aashirvaad Superior MP Whole Wheat Atta 5kg",
+        "quantity": 55,
+        "unitPrice": 232,
+        "total": 12760
+      },
+      {
+        "productId": "prod_21",
+        "sku": "SUNFEAST-MOM-MAGIC-100G",
+        "productName": "Sunfeast Mom's Magic Cashew & Almond 100g",
+        "quantity": 53,
+        "unitPrice": 16.9,
+        "total": 896
+      },
+      {
+        "productId": "prod_22",
+        "sku": "BINGO-MAD-ANGLES-66G",
+        "productName": "Bingo Mad Angles Achaari Masti 66g",
+        "quantity": 27,
+        "unitPrice": 8.5,
+        "total": 230
+      }
+    ],
+    "totalOrderValue": 13886,
+    "orderDate": "2026-11-13",
+    "expectedDeliveryDate": "2026-11-15",
+    "actualDeliveryDate": "",
+    "orderStatus": "Cancelled",
+    "paymentStatus": "Net-15 Credit",
+    "notes": "Awaiting mini-truck dispatch from APMC Mandi"
+  }
+]

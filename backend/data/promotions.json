@@ -1,0 +1,127 @@
+[
+  {
+    "promotionId": "promo_01",
+    "storeId": "store_ka_01",
+    "title": "Mandi Weekend Super Saver",
+    "type": "Weekend Offer",
+    "discountPercent": 10,
+    "applicableProducts": [
+      "prod_01",
+      "prod_08",
+      "prod_23"
+    ],
+    "startDate": "2024-11-22",
+    "endDate": "2024-11-24",
+    "seasonalEvent": "Weekend Mandi Market",
+    "status": "Active"
+  },
+  {
+    "promotionId": "promo_02",
+    "storeId": "store_ka_01",
+    "title": "Dead Stock Clearance: Wheel Detergent 1kg",
+    "type": "Dead Stock Clearance",
+    "discountPercent": 20,
+    "applicableProducts": [
+      "prod_45"
+    ],
+    "startDate": "2024-11-15",
+    "endDate": "2024-11-30",
+    "seasonalEvent": "Working Capital Liquidation",
+    "status": "Active"
+  },
+  {
+    "promotionId": "promo_03",
+    "storeId": "store_ka_01",
+    "title": "Diwali Sweet Delights Bundle",
+    "type": "Festival Sale",
+    "discountPercent": 15,
+    "applicableProducts": [
+      "prod_10",
+      "prod_14",
+      "prod_37"
+    ],
+    "startDate": "2024-10-28",
+    "endDate": "2024-11-04",
+    "seasonalEvent": "Deepavali Festival",
+    "status": "Expired"
+  },
+  {
+    "promotionId": "promo_04",
+    "storeId": "store_ka_01",
+    "title": "Village Harvest Bulk Atta & Oil",
+    "type": "Bulk Discount",
+    "discountPercent": 8,
+    "applicableProducts": [
+      "prod_20",
+      "prod_26"
+    ],
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-30",
+    "seasonalEvent": "Harvest Season",
+    "status": "Active"
+  },
+  {
+    "promotionId": "promo_05",
+    "storeId": "store_tn_01",
+    "title": "Pongal Special Festival Savings",
+    "type": "Festival Sale",
+    "discountPercent": 12,
+    "applicableProducts": [
+      "prod_14",
+      "prod_23",
+      "prod_49"
+    ],
+    "startDate": "2025-01-12",
+    "endDate": "2025-01-18",
+    "seasonalEvent": "Pongal Celebration",
+    "status": "Scheduled"
+  },
+  {
+    "promotionId": "promo_06",
+    "storeId": "store_ap_01",
+    "title": "Sankranti Rural Khata Bonanza",
+    "type": "Festival Sale",
+    "discountPercent": 10,
+    "applicableProducts": [
+      "prod_04",
+      "prod_20",
+      "prod_24"
+    ],
+    "startDate": "2025-01-10",
+    "endDate": "2025-01-16",
+    "seasonalEvent": "Makar Sankranti",
+    "status": "Scheduled"
+  },
+  {
+    "promotionId": "promo_07",
+    "storeId": "store_ka_02",
+    "title": "Ugadi New Year Household Refresh",
+    "type": "Festival Sale",
+    "discountPercent": 15,
+    "applicableProducts": [
+      "prod_15",
+      "prod_17",
+      "prod_38"
+    ],
+    "startDate": "2025-03-25",
+    "endDate": "2025-04-02",
+    "seasonalEvent": "Ugadi New Year",
+    "status": "Scheduled"
+  },
+  {
+    "promotionId": "promo_08",
+    "storeId": "store_ka_01",
+    "title": "Independence Day Grama Offer",
+    "type": "Festival Sale",
+    "discountPercent": 10,
+    "applicableProducts": [
+      "prod_01",
+      "prod_06",
+      "prod_42"
+    ],
+    "startDate": "2024-08-14",
+    "endDate": "2024-08-16",
+    "seasonalEvent": "Independence Day",
+    "status": "Expired"
+  }
+]
