@@ -176,6 +176,50 @@ async function verifyAll() {
     );
     test(aiRes.status === 200 && aiRes.body?.reply, "AI Chatbot API (POST /api/ai/chat)", `Response length: ${aiRes.body?.reply?.length} chars`);
 
+    // 10. Direct Route Refresh on /sales (HTTP 200 via SPA History API fallback)
+    const salesPageRes = await fetchHttp({
+      hostname: "localhost",
+      port: 5173,
+      path: "/sales",
+      method: "GET"
+    });
+    test(
+      salesPageRes.status === 200 && (salesPageRes.text || "").toLowerCase().includes("<!doctype html>"),
+      "Frontend SPA Route Refresh Support (GET http://localhost:5173/sales)",
+      `Status: ${salesPageRes.status}`
+    );
+
+    // 11. Sales Ledger API (GET & POST /api/sales)
+    const salesRes = await fetchHttp({
+      hostname: "localhost",
+      port: 5000,
+      path: "/api/sales",
+      method: "GET",
+      headers: { "Origin": "http://localhost:5173" }
+    });
+    test(salesRes.status === 200 && Array.isArray(salesRes.body), "Sales Ledger API (GET /api/sales)", `Records: ${salesRes.body?.length}`);
+
+    const newSaleRes = await fetchHttp(
+      {
+        hostname: "localhost",
+        port: 5000,
+        path: "/api/sales",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`,
+          "Origin": "http://localhost:5173"
+        }
+      },
+      {
+        productId: firstProduct._id,
+        quantity: 2,
+        paymentMethod: "UPI",
+        customerName: "Village Counter Test"
+      }
+    );
+    test(newSaleRes.status === 201 && newSaleRes.body?.sale?.invoiceNumber, "Record Counter Sale (POST /api/sales)", `Invoice: ${newSaleRes.body?.sale?.invoiceNumber}`);
+
     console.log("==================================================");
     console.log(`🏁 SUMMARY: ${passed}/${total} CHECKS PASSED`);
     console.log("==================================================");

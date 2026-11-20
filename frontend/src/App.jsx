@@ -18,11 +18,13 @@ import OAuthCallback from "./pages/OAuthCallback";
 // Layout
 import DashboardLayout from "./components/DashboardLayout";
 import AIChatbot from "./components/AIChatbot";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 export default function App() {
   return (
-    <AuthProvider>
-      <Routes>
+    <ErrorBoundary>
+      <AuthProvider>
+        <Routes>
         {/* Public Landing Page */}
         <Route path="/" element={<LandingPage />} />
 
@@ -102,5 +104,6 @@ export default function App() {
       {/* Floating KIRANAS AI Assistant */}
       <AIChatbot />
     </AuthProvider>
+    </ErrorBoundary>
   );
 }

@@ -47,19 +47,27 @@ export default function SalesPage({
     if (onRefresh) onRefresh();
   };
 
-  const filteredSales = sales.filter(s =>
-    (s.productName && s.productName.toLowerCase().includes(searchInvoice.toLowerCase())) ||
-    (s.invoiceNumber && s.invoiceNumber.toLowerCase().includes(searchInvoice.toLowerCase())) ||
-    (s.customerName && s.customerName.toLowerCase().includes(searchInvoice.toLowerCase()))
-  );
+  const salesList = Array.isArray(sales) ? sales : [];
+  const filteredSales = salesList.filter(s => {
+    if (!s) return false;
+    const q = (searchInvoice || "").toLowerCase();
+    return (
+      (s.productName && s.productName.toLowerCase().includes(q)) ||
+      (s.invoiceNumber && s.invoiceNumber.toLowerCase().includes(q)) ||
+      (s.customerName && s.customerName.toLowerCase().includes(q))
+    );
+  });
 
   const today = new Date();
   const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
-  const todayTotal = sales
-    .filter(s => new Date(s.soldAt).getTime() >= todayStart)
+  const todayTotal = salesList
+    .filter(s => {
+      const d = s.soldAt || s.createdAt || s.date;
+      return d ? new Date(d).getTime() >= todayStart : false;
+    })
     .reduce((sum, s) => sum + (Number(s.total) || 0), 0);
 
-  const totalVolume = sales.reduce((sum, s) => sum + (Number(s.quantity) || 0), 0);
+  const totalVolume = salesList.reduce((sum, s) => sum + (Number(s.quantity) || 0), 0);
 
   return (
     <div className="space-y-6">

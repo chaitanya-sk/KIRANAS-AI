@@ -28,6 +28,21 @@ import cookieParser from "cookie-parser";
 import datasetRoutes from "./routes/datasetRoutes.js";
 import aiRoutes from "./routes/aiRoutes.js";
 
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Process safety: Prevent silent exits from uncaught exceptions or unhandled promise rejections
+process.on("uncaughtException", (err) => {
+  console.error("[KIRANAS CRITICAL] Uncaught Exception trapped:", err);
+});
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("[KIRANAS CRITICAL] Unhandled Rejection trapped at:", promise, "reason:", reason);
+});
+
 dotenv.config();
 
 const app = express();
@@ -36,18 +51,25 @@ const JWT_SECRET = process.env.JWT_SECRET || "kiranas_super_secret_jwt_key_rural
 const DEMO_MODE = String(process.env.DEMO_MODE).toLowerCase() === "true";
 const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
 
-// Configure CORS with explicit allowed origins and credentials support
+// Configure CORS with dynamic origin matching for local development and cloud deployments
 const allowedOrigins = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
   "http://localhost:5000",
   "http://127.0.0.1:5000",
-  process.env.FRONTEND_URL || "http://localhost:5173"
+  FRONTEND_URL
 ];
 
 app.use(cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin) || origin.startsWith("http://localhost:") || origin.startsWith("http://127.0.0.1:")) {
+    if (
+      !origin ||
+      allowedOrigins.includes(origin) ||
+      origin.startsWith("http://localhost:") ||
+      origin.startsWith("http://127.0.0.1:") ||
+      origin.endsWith(".vercel.app") ||
+      origin.endsWith(".netlify.app")
+    ) {
       callback(null, true);
     } else {
       callback(null, true);
@@ -58,6 +80,18 @@ app.use(cors({
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Accept", "Origin"]
 }));
 app.options("*", cors());
+
+// High-visibility HTTP request logging middleware
+app.use((req, res, next) => {
+  const start = Date.now();
+  res.on("finish", () => {
+    if (req.originalUrl !== "/api/health") {
+      const duration = Date.now() - start;
+      console.log(`[${new Date().toLocaleTimeString()}] ${req.method} ${req.originalUrl} -> ${res.statusCode} (${duration}ms)`);
+    }
+  });
+  next();
+});
 
 // Root health aliases
 app.get("/health", (req, res) => res.redirect("/api/health"));
@@ -97,7 +131,27 @@ app.use("/api/dataset", datasetRoutes);
 // Mount KIRANAS AI Assistant Routes (/api/ai/*)
 app.use("/api/ai", aiRoutes);
 
-// Database Connection with graceful fallback and clear error reporting
+// Database Connection with graceful fallback, connection monitoring & auto-reconnect
+mongoose.connection.on("connected", () => {
+  isDbConnected = true;
+  console.log("✓ MongoDB connection successfully established.");
+});
+
+mongoose.connection.on("disconnected", () => {
+  isDbConnected = false;
+  console.warn("⚠ MongoDB disconnected. Operating seamlessly in In-Memory Demo Store.");
+});
+
+mongoose.connection.on("reconnected", () => {
+  isDbConnected = true;
+  console.log("✓ MongoDB successfully reconnected.");
+});
+
+mongoose.connection.on("error", (err) => {
+  isDbConnected = false;
+  console.error("❌ MongoDB connection error:", err.message);
+});
+
 async function initDatabase() {
   const mongoUri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/kiranas";
   try {
@@ -107,8 +161,7 @@ async function initDatabase() {
     console.log("✓ MongoDB successfully connected to:", mongoUri);
   } catch (err) {
     isDbConnected = false;
-    console.error(`❌ MongoDB Connection Error (${mongoUri}): ${err.message}`);
-    console.warn("⚠ MongoDB is unavailable. Operating in DEMO MODE with in-memory store so the app remains accessible.");
+    console.warn(`⚠ MongoDB is unavailable (${err.message}). Operating in in-memory fallback store so app remains 100% functional.`);
   }
 }
 initDatabase();
@@ -140,18 +193,22 @@ const authenticateToken = (req, res, next) => {
 // 1. HEALTH & SYSTEM STATUS
 // ==========================================
 app.get("/api/health", (req, res) => {
-  const dbStatus = isDbConnected ? "connected" : "disconnected";
+  const mem = process.memoryUsage();
   res.json({
     success: true,
-    message: "KIRANAS backend is running",
-    database: dbStatus,
     status: "ok",
     server: "running",
-    isDbConnected,
     app: "KIRANAS",
     tagline: "Smart Inventory. Smarter Kiranas.",
     version: "1.0.0",
     port: PORT,
+    database: isDbConnected ? "connected" : "in-memory-fallback",
+    isDbConnected,
+    uptimeSeconds: Math.floor(process.uptime()),
+    memory: {
+      rssMb: Math.round(mem.rss / 1024 / 1024),
+      heapUsedMb: Math.round(mem.heapUsed / 1024 / 1024)
+    },
     timestamp: new Date().toISOString()
   });
 });
@@ -1304,6 +1361,16 @@ app.get("/api/dashboard/stats", async (req, res) => {
   }
 });
 
+// Serve production static frontend if built (Single-port monolithic hosting on Render, Railway, etc.)
+const frontendDistPath = path.resolve(__dirname, "../frontend/dist");
+if (fs.existsSync(frontendDistPath)) {
+  app.use(express.static(frontendDistPath));
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api") || req.path.startsWith("/health")) return next();
+    res.sendFile(path.join(frontendDistPath, "index.html"));
+  });
+}
+
 // Global Error Handler
 app.use((err, req, res, next) => {
   console.error("Server Error:", err);
@@ -1326,5 +1393,30 @@ server.on("error", (err) => {
     console.error(`❌ Server startup error:`, err.message);
   }
 });
+
+// Graceful process shutdown handling
+const handleGracefulShutdown = (signal) => {
+  console.log(`\n[KIRANAS] Received ${signal}. Closing HTTP server gracefully...`);
+  server.close(async () => {
+    console.log("[KIRANAS] HTTP server closed.");
+    if (isDbConnected) {
+      try {
+        await mongoose.connection.close();
+        console.log("[KIRANAS] MongoDB connection closed.");
+      } catch (err) {
+        console.error("[KIRANAS] Error closing MongoDB:", err.message);
+      }
+    }
+    process.exit(0);
+  });
+
+  setTimeout(() => {
+    console.error("[KIRANAS] Forceful shutdown timeout triggered.");
+    process.exit(1);
+  }, 5000);
+};
+
+process.on("SIGTERM", () => handleGracefulShutdown("SIGTERM"));
+process.on("SIGINT", () => handleGracefulShutdown("SIGINT"));
 
 export { app, server };
